@@ -49,7 +49,7 @@ module I18n
         TRUTHY_CHAR = "\001"
         FALSY_CHAR = "\002"
 
-        table_name 'translations'
+        table_name = 'translations'
 
         serialize :value
         serialize :interpolations, Array
